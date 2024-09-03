@@ -18,8 +18,6 @@ HTML: Provides the structure and content of the webpage.
 CSS: Styles the layout and interactive elements.
 JavaScript: Manages music playback and user interactions.
 
-Run:
-
 Open index.html in your web browser to start using the music player.
 Customize:
 
