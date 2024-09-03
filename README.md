@@ -1,5 +1,5 @@
 Music Playlist Website : 
-An interactive music playlist website that replicates features found in popular streaming services like Spotify. This project demonstrates how to create a functional and visually appealing music player using HTML, CSS, and JavaScript.
+This project demonstrates how to create a functional and visually appealing music player using HTML, CSS, and JavaScript. It is an interactive music playlist website that replicates features found in popular streaming services like Spotify.
 
 Features
 Music Controls:
@@ -19,8 +19,8 @@ CSS: Styles the layout and interactive elements.
 JavaScript: Manages music playback and user interactions.
 
 Open index.html in your web browser to start using the music player.
-Customize:
 
+Customize:
 Update the songs array in script.js to add or modify songs.
 Replace images in the images folder to change album covers.
 Contributing
