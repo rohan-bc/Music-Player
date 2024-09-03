@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.player-container {
+    width: 90%;
+    max-width: 500px;
+    background-color: rgba(30, 30, 30, 0.8); /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px); /* Blur effect */
+    padding: 20px;
+}
+
+.player {
+    text-align: center;
+}
+
+.cover img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.cover img:hover {
+    transform: scale(1.1);
+}
+
+.details {
+    margin-top: 10px;
+}
+
+.controls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.control-btn {
+    background-color: #6200ea;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.control-btn:hover {
+    background-color: #3700b3;
+}
+
+.progress-container {
+    margin-top: 20px;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+.volume-container {
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    background: #6200ea;
+    cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+    background: #6200ea;
+    cursor: pointer;
+}

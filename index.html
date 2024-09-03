@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music Playlist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="player-container">
+        <div class="player">
+            <div class="cover">
+                <img id="cover-img" src="images/cover1.jpg" alt="Album Cover">
+            </div>
+            <div class="details">
+                <h2 id="song-title">Song Title</h2>
+                <p id="song-artist">Artist Name</p>
+            </div>
+            <div class="controls">
+                <button id="prev" class="control-btn">Prev</button>
+                <button id="play-pause" class="control-btn">Play</button>
+                <button id="next" class="control-btn">Next</button>
+            </div>
+            <div class="progress-container">
+                <input type="range" id="progress" value="0" max="100">
+            </div>
+            <div class="volume-container">
+                <label for="volume">Volume</label>
+                <input type="range" id="volume" value="80" max="100">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
